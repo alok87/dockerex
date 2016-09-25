@@ -1,0 +1,14 @@
+---
+version: '2'
+
+services:
+  accounts:
+    build: accounts
+
+  calendar:
+    build: calendar
+
+  router:
+    build: router
+    ports:
+    - 80:80
