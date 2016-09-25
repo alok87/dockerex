@@ -19,3 +19,5 @@ An example of two dockerized apps communicating using built in Docker DNS with N
 	ping -c 5 accounts.myproduct.local ========> resolves to 127.0.0.1 :( 
 	curl accounts.myproduct.local =============> resolves locally not to the other container :(  how to do that?
 ``` 
+
+* This works `curl -x http://router:80 -L http://accounts.myproduct.local` from calendar container. How can this work `curl http://accounts.myproduct.local` from calendar container.
