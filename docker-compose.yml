@@ -2,10 +2,10 @@
 version: '2'
 
 services:
-  accounts:
+  accounts.myproduct.local:
     build: accounts
 
-  calendar:
+  calendar.myproduct.local:
     build: calendar
 
   router:
