@@ -19,3 +19,7 @@ An example of two dockerized apps communicating using built in Docker DNS with N
 	ping -c 5 accounts.myproduct.local ========> resolves :)  
 	curl accounts.myproduct.local =============> resolves :)
 ```
+
+* This works `curl -x http://router:80 -L http://accounts.myproduct.local` from calendar container.  
+Works ==> `curl http://accounts.myproduct.local` from calendar container.
+
